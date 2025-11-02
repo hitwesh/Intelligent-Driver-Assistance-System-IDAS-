@@ -1,0 +1,40 @@
+# Smart Autonomus Driving Assistance System (SADAS) - Intelligent Driver Assistance System (IDAS)
+# Backend Requirements
+
+# ---- Core Frameworks ----
+flask>=2.3.0
+flask-cors>=3.0.10
+fastapi>=0.110.0
+uvicorn>=0.23.0
+
+# ---- HTTP / Networking ----
+requests>=2.31.0
+
+# ---- AI / ML / Computer Vision ----
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.25.0
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ---- Geo / Location ----
+geopy>=2.4.0
+
+# ---- Speech & Audio ----
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+
+# ---- Data Validation & ORM ----
+pydantic>=2.0.3
+sqlalchemy>=2.0.0
+
+# ---- Optional Dev Tools ----
+python-dotenv>=1.0.0       
+tqdm>=4.65.0         
+loguru>=0.7.0              
+
+# ===============================
+# End of requirements.txt
+# ===============================
+
+# to install all dependencies, run: 'pip install -r requirements.txt'
